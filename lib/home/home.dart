@@ -25,9 +25,9 @@ class _HomePageState extends State<HomePage> {
           builder: (BuildContext context) {
             return AlertDialog(
               title: const Text('Тест QuizeApp'),
-              content: SingleChildScrollView(
+              content: const SingleChildScrollView(
                 child: ListBody(
-                  children: const <Widget>[
+                  children: <Widget>[
                     Text('Сиздин тест аягына келип жетти'),
                   ],
                 ),
